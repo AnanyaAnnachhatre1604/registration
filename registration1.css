@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #001f3f; /* Navy blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #001f3f; /* Navy blue background */
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    width: 80%;
+    max-width: 800px;
+}
+
+.welcome-section {
+    background: url('background.jpg') no-repeat center center/cover;
+    padding: 40px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.welcome-section h1 {
+    margin-top: 20px;
+    font-size: 36px;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.form-section {
+    padding: 40px;
+    width: 50%;
+    background-color: #001f3f; /* Navy blue background */
+}
+
+.form-section p {
+    font-size: 18px;
+    color: white;
+}
+
+.social-button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.google {
+    background-color: #db4437; /* Google red */
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #001f3f; /* Navy blue text */
+}
+
+.terms {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.terms a {
+    color: #db4437; /* Google red */
+    cursor: pointer;
+}
+
+.sign-up-button {
+    background-color: #db4437; /* Google red */
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
